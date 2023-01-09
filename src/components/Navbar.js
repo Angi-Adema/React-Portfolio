@@ -9,7 +9,7 @@ export default function Navigation() {
         <Navbar.Brand href="#home"></Navbar.Brand>Angela E. Adema
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="aboutme">About Me</Nav.Link>
             <Nav.Link href="portfolio">Portfolio</Nav.Link>
             <Nav.Link href="contact">Contact</Nav.Link>
@@ -20,5 +20,3 @@ export default function Navigation() {
     </Navbar>
   );
 }
-
-
