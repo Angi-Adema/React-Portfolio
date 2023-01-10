@@ -1,14 +1,10 @@
 import "./App.css";
-import Navigation from "./components/Navbar";
+import Navigation from "./screens/navigationBar/NavigationBar";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navigation />
-      </header>
-      <main></main>
-      <footer></footer>
+      <Navigation />
     </div>
   );
 }
