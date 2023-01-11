@@ -15,7 +15,12 @@ function createLinks() {
 function NavigationBar() {
   return (
     <div id="home">
-      <Navbar className="navigation_container" expand="md">
+      <Navbar
+        className="navigation_container"
+        style={{ zIndex: "2", position: "fixed", top: "0", width: "100%" }}
+        collapseOnSelect
+        expand="md"
+      >
         <Navbar.Brand style={{ marginLeft: "1rem" }} href="#home">
           Angela E. Adema
         </Navbar.Brand>

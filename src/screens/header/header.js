@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import "./header.css";
 
-function header() {
+function Header() {
   return (
     <div className="main-info">
       <h1>What Am I?</h1>
@@ -27,4 +27,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;
