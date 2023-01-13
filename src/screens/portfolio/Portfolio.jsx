@@ -74,7 +74,7 @@ function Portfolio() {
     <div className="portfolio_main_container" id="portfolio">
       <h1>PORTFOLIO</h1>
       <p>
-        This is my GitHub page Link:
+        GitHub Link:
         <a
           href="https://github.com/Angi-Adema"
           target="_blank"

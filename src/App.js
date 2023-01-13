@@ -4,6 +4,7 @@ import Particles from "./Particles";
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
 import Portfolio from "./screens/portfolio/Portfolio";
+import ContactMe from "./screens/contactMe/ContactMe";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Particles />
       <AboutMe />
       <Portfolio />
+      <ContactMe />
     </div>
   );
 }
