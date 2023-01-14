@@ -7,28 +7,28 @@ import weatherApp from "../images/projectsicon/weatherappSS.png";
 
 const portfolioData = [
   {
-    image: "truckDB",
+    image: truckDB,
     link: "https://calm-stream-98427.herokuapp.com/",
     title: "Truck Database",
     summary: "An app to look up and locate trucks and parts.",
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
   },
   {
-    image: "mvcBlog",
+    image: mvcBlog,
     link: "https://guarded-peak-34864.herokuapp.com/",
     title: "Tech Blog",
     summary: "A blog with posts regarding new technology.",
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | Handlebars.js | JavaScript",
   },
   {
-    image: "socialNetwork",
+    image: socialNetwork,
     link: "https://github.com/Angi-Adema/Social-Network-API",
-    title: "Back-end Social Network API",
+    title: "Back-End Social Network API",
     summary: "This app is the back-end piece for a social network API.",
     tech: "NoSQL | Node.js/Express.js | MongoDB/Mongoose | JavaScript",
   },
   {
-    image: "teamProfile",
+    image: teamProfile,
     link: "https://github.com/Angi-Adema/Team-Profile-Manager",
     title: "Team Profile",
     summary:
@@ -36,7 +36,7 @@ const portfolioData = [
     tech: "Node.js/Express.js | Jest | JavaScript",
   },
   {
-    image: "textEditor",
+    image: textEditor,
     link: "https://angi-text-editor.herokuapp.com/",
     title: "PWA Text-Editor",
     summary:
@@ -44,7 +44,7 @@ const portfolioData = [
     tech: "Node.js/Express.js | Webpack | JavaScript",
   },
   {
-    image: "weatherApp",
+    image: weatherApp,
     link: "https://angi-adema.github.io/Weather-App/",
     title: "Weather App",
     summary: "App created so the user can view a 5 day forcast for any city.",

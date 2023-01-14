@@ -1,5 +1,5 @@
-.portfolio {
-  background-color: aqua;
+#portfolio {
+  background-color: #83e0ec;
 }
 
 .portfolio__main__container h1,
@@ -36,13 +36,14 @@
   opacity: 0.1 !important;
 }
 
-#portfolio__modal__link {
+#portfolio_modal_link {
   padding: 0 0 1rem 1rem;
-}
-
-#portfolio__modal__link:link {
   text-decoration: none;
 }
+
+/* #portfolio__modal__link:link {
+  text-decoration: none;
+} */
 
 @media only screen and (max-width: 600px) {
   #portfolio__card__container {

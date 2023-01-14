@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./portfolio.css";
 import portfolioData from "../../helpers/portfolioData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import "./portfolio.css";
 
 function Portfolio() {
   const [modalShow, SetModalShow] = useState(false);
@@ -49,7 +49,16 @@ function Portfolio() {
 
   const mapped = portfolioData.map((e, idx) => {
     return (
-      <Card key={idx} id="portfolio_card_container">
+      <Card
+        key={idx}
+        id="portfolio_card_container"
+        style={{
+          width: "650px",
+          height: "500px",
+          margin: 5,
+          padding: 5,
+        }}
+      >
         <Image
           className="portfolio_image"
           onClick={() => {
