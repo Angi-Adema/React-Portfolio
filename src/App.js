@@ -1,11 +1,10 @@
 import "./App.css";
-import Navigation from "./screens/navigationBar/NavigationBar";
+import Navigation from "./components/navigationBar/NavigationBar";
 import Particles from "./Particles";
-import Header from "./screens/header/Header";
-import AboutMe from "./screens/aboutMe/AboutMe";
-import Portfolio from "./screens/portfolio/Portfolio";
-import ContactMe from "./screens/contactMe/ContactMe";
-
+import Header from "./components/header/Header";
+import AboutMe from "./components/aboutMe/AboutMe";
+import Portfolio from "./components/portfolio/Portfolio";
+import ContactMe from "./components/footer/footer";
 
 export default function App() {
   return (
