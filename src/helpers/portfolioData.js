@@ -1,5 +1,5 @@
 import truckDB from "../images/projectsicon/truckDbSS.png";
-import mvcBlog from "../images/projectsicon/mvcTechBlogSS.png";
+import eCommerce from "../images/projectsicon/BackEndECommerceSS.png";
 import socialNetwork from "../images/projectsicon/socialNetworkSS.png";
 import teamProfile from "../images/projectsicon/team-profile-managerSS.png";
 import textEditor from "../images/projectsicon/textEditorSS.png";
@@ -15,19 +15,21 @@ const portfolioData = [
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
   },
   {
-    image: mvcBlog,
-    link: "https://guarded-peak-34864.herokuapp.com/",
-    github: "https://github.com/Angi-Adema/MVC-Tech-Blog",
-    title: "Tech Blog",
-    summary: "A blog with posts regarding new technology.",
-    tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | Handlebars.js | JavaScript",
+    image: eCommerce,
+    link: "https://github.com/Angi-Adema/Back-End-E-Commerce",
+    github: "https://github.com/Angi-Adema/Back-End-E-Commerce",
+    title: "Back-End E-Commerce",
+    summary:
+      "Back-end application to support an e-commerce retail business. No front-end - NOT DEPLOYED",
+    tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
   },
   {
     image: socialNetwork,
     link: "https://github.com/Angi-Adema/Social-Network-API",
     github: "https://github.com/Angi-Adema/Social-Network-API",
     title: "Back-End Social Network API",
-    summary: "This app is the back-end piece for a social network API.",
+    summary:
+      "This app is the back-end piece for a social network API. No front-end - NOT DEPLOYED",
     tech: "NoSQL | Node.js/Express.js | MongoDB/Mongoose | JavaScript",
   },
   {

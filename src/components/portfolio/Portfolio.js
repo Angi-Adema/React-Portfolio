@@ -38,6 +38,14 @@ function Portfolio() {
         >
           Link to project site!
         </a>
+        <a
+          id="portfolio_modal_link"
+          href={data.github}
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub Link!
+        </a>
         <Modal.Footer>
           <div>Technologies Used: </div>
           <p style={{ fontSize: "0.7rem", marginRight: "auto" }}>{data.tech}</p>
@@ -83,17 +91,6 @@ function Portfolio() {
   return (
     <div className="portfolio_main_container" id="portfolio">
       <h1>PORTFOLIO</h1>
-      <p>
-        GitHub Link:
-        <a
-          href="https://github.com/Angi-Adema"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {" "}
-          https://github.com/Angi-Adema
-        </a>
-      </p>
       <Container fluid="lg" style={{ padding: "2rem 0" }}>
         <Row>{mapped}</Row>
       </Container>
