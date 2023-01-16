@@ -9,6 +9,7 @@ const portfolioData = [
   {
     image: truckDB,
     link: "https://calm-stream-98427.herokuapp.com/",
+    github: "https://github.com/TuinderJ/Vehicle-Reference",
     title: "Truck Database",
     summary: "An app to look up and locate trucks and parts.",
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
@@ -16,6 +17,7 @@ const portfolioData = [
   {
     image: mvcBlog,
     link: "https://guarded-peak-34864.herokuapp.com/",
+    github: "https://github.com/Angi-Adema/MVC-Tech-Blog",
     title: "Tech Blog",
     summary: "A blog with posts regarding new technology.",
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | Handlebars.js | JavaScript",
@@ -23,6 +25,7 @@ const portfolioData = [
   {
     image: socialNetwork,
     link: "https://github.com/Angi-Adema/Social-Network-API",
+    github: "https://github.com/Angi-Adema/Social-Network-API",
     title: "Back-End Social Network API",
     summary: "This app is the back-end piece for a social network API.",
     tech: "NoSQL | Node.js/Express.js | MongoDB/Mongoose | JavaScript",
@@ -30,6 +33,7 @@ const portfolioData = [
   {
     image: teamProfile,
     link: "https://github.com/Angi-Adema/Team-Profile-Manager",
+    github: "https://github.com/Angi-Adema/Team-Profile-Manager",
     title: "Team Profile",
     summary:
       "Built for testing, an app for managers to store their team profiles.",
@@ -38,6 +42,7 @@ const portfolioData = [
   {
     image: textEditor,
     link: "https://angi-text-editor.herokuapp.com/",
+    github: "https://github.com/Angi-Adema/The-Text-Editor",
     title: "PWA Text-Editor",
     summary:
       "This app will store text whether the application is on or off-line (PWA)",
@@ -46,6 +51,7 @@ const portfolioData = [
   {
     image: weatherApp,
     link: "https://angi-adema.github.io/Weather-App/",
+    github: "https://github.com/Angi-Adema/Weather-App",
     title: "Weather App",
     summary: "App created so the user can view a 5 day forcast for any city.",
     tech: "JavaScript | Weather API",

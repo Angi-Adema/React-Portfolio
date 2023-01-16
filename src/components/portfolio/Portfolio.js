@@ -64,6 +64,7 @@ function Portfolio() {
           onClick={() => {
             setTempData({
               image: e.image,
+              github: e.github,
               link: e.link,
               title: e.title,
               summary: e.summary,
