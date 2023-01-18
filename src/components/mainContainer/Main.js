@@ -1,12 +1,9 @@
-
 import AboutMe from "../aboutMe/AboutMe";
 import Contact from "../contact/Contact";
 import Home from "../home/Home";
 import Portfolio from "../portfolio/Portfolio";
 
-export default function Main({currentPage}) {
-
-
+export default function Main({ currentPage }) {
   const renderPage = () => {
     if (currentPage === "HOME") {
       return <Home />;
@@ -20,11 +17,5 @@ export default function Main({currentPage}) {
     return <Contact />;
   };
 
-
-
-  return (
-    <div>
-      {renderPage()}
-    </div>
-  );
+  return <div>{renderPage()}</div>;
 }

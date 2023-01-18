@@ -17,9 +17,18 @@ function AboutMe() {
           working as a Mortgage Processor through the refinance boom of 2021
           then moved on to study web development through the University of
           Denver. Having gained expertise in web development, I have earned a
-          certification as MERN Full-Stack Developer and am now seeking
-          opportunities to further my knowledge and experience working in the
-          field.
+          certification as a MERN Full-Stack Developer and am now seeking
+          opportunities not only to continue learning, but also to help make a
+          business profitable through their web presence.
+        </p>
+        <br></br>
+        <p>
+          My experience includes working in HTML, CSS, JavaScript, Node.js,
+          Express.js, MySQL/MySQL2, NoSQL, MongoDB and ReactJS and others. All
+          projects were built using Object Oriented Programming and using the
+          Model-View-Controller framework. My experience has taught me how to
+          problem solve as well as how to learn! Please check out my portfolio
+          of projects and I look forward to connecting soon!
         </p>
       </div>
     </div>

@@ -1,8 +1,7 @@
-import  { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Navigation from "./components/navigationBar/NavigationBar";
-import Particles from "./Particles";
-import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import Main from "./components/mainContainer/Main";
 
 export default function App() {
@@ -10,8 +9,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <Navigation setCurrentPage={setCurrentPage}/>
-      <Main currentPage={currentPage}/>
+      <Navigation setCurrentPage={setCurrentPage} />
+      <Main currentPage={currentPage} />
+      <Footer currentPage={currentPage} />
     </div>
   );
 }
