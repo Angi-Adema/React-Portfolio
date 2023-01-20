@@ -6,7 +6,7 @@ This application was created as a professional portfolio. It is designed to show
 
 [Deployed Site](https://Angi-Adema.github.io/React-Portfolio)
 
-![React-Portfolio Screenshot]()
+![React-Portfolio Screenshot](./src/images/portfolioSS.png)
 
 ## Acceptance Criteria
 
