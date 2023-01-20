@@ -39,6 +39,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Credits
 
 Author: Angi Adema
+
 React Particles: Sharna Hossain - codepen.io
 
 ## Questions
