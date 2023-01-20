@@ -14,8 +14,8 @@ export default class Particles extends React.Component {
     let num = 150;
     let size = 1;
     let color = "#fff";
-    let min_speed = 0.1;
-    let max_speed = 0.5;
+    let min_speed = 0.5;
+    let max_speed = 1;
     let line_distance = 80;
     let particles = [];
 
@@ -94,3 +94,5 @@ export default class Particles extends React.Component {
     return <canvas id="particles"></canvas>;
   }
 }
+
+//By: Sharna Hossain - CodePen.io

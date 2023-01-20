@@ -18,3 +18,7 @@
 .links a:hover {
   background-color: var(--font-color-hover);
 }
+
+.active{
+  text-decoration: underline !important;
+}

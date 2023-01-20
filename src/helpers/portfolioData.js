@@ -1,9 +1,9 @@
-import truckDB from "../images/projectsicon/truckDbSS.png";
-import eCommerce from "../images/projectsicon/BackEndECommerceSS.png";
+import truckDB from "../images/projectsicon/semiTruckSS.png";
+import eCommerce from "../images/projectsicon/ecommerceSS.png";
 import socialNetwork from "../images/projectsicon/socialNetworkSS.png";
-import teamProfile from "../images/projectsicon/team-profile-managerSS.png";
+import teamProfile from "../images/projectsicon/teamProfileSS.png";
 import textEditor from "../images/projectsicon/textEditorSS.png";
-import weatherApp from "../images/projectsicon/weatherappSS.png";
+import weatherApp from "../images/projectsicon/weatherAppSS.png";
 
 const portfolioData = [
   {
@@ -11,7 +11,8 @@ const portfolioData = [
     link: "https://calm-stream-98427.herokuapp.com/",
     github: "https://github.com/TuinderJ/Vehicle-Reference",
     title: "Truck Database",
-    summary: "An app to look up and locate trucks and parts. Enter #272171 to view data",
+    summary:
+      "An app to look up and locate trucks and parts. Enter #272171 to view data",
     tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
   },
   {

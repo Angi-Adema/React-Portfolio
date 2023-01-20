@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Navigation setCurrentPage={setCurrentPage} />
+      <Navigation currentPage={currentPage}  setCurrentPage={setCurrentPage} />
       <Main currentPage={currentPage} />
       <Footer currentPage={currentPage} />
     </div>

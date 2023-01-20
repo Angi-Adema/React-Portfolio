@@ -4,15 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { navigationLinks } from "../../helpers/navigationLinks";
 
-function createLinks(setCurrentPage) {
+function createLinks(setCurrentPage, currentPage) {
   return navigationLinks.map((e, idx) => (
-    <Nav.Link key={idx} href={e.ref} onClick={()=>setCurrentPage(e.name)}>
+    <Nav.Link key={idx} href={e.ref} onClick={()=>setCurrentPage(e.name)} >
       {e.name}
     </Nav.Link>
   ));
 }
 
-function NavigationBar({ setCurrentPage }) {
+function NavigationBar({ currentPage, setCurrentPage }) {
   return (
     <div id="home">
       <Navbar
@@ -33,7 +33,7 @@ function NavigationBar({ setCurrentPage }) {
           }}
         >
           <Nav className="links" style={{ margin: "0 1rem" }}>
-            {createLinks(setCurrentPage)}
+            {createLinks(setCurrentPage, currentPage)}
             <a
               href="https://drive.google.com/file/d/1o-Ywru-2PwK3eN6TN2wODvU7EZlgbfR8/view?usp=sharing"
               className="nav-link"
