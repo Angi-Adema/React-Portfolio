@@ -17,12 +17,12 @@ const portfolioData = [
   },
   {
     image: eCommerce,
-    link: "https://github.com/Angi-Adema/Back-End-E-Commerce",
-    github: "https://github.com/Angi-Adema/Back-End-E-Commerce",
-    title: "Back-End E-Commerce",
+    link: "https://turnip-the-zine.herokuapp.com/",
+    github: "https://github.com/madisenvo/Turnip-the-Zine",
+    title: "Turnip-the-Zine",
     summary:
-      "Back-end application to support an e-commerce retail business. No front-end - NOT DEPLOYED",
-    tech: "MySQL/MySQL2 | Node.js/Express.js | Sequelize | JavaScript",
+      "Full stack application with ecommerce for local bands to sell tickets and merchandise.",
+    tech: "GraphQL / Apollo | Node.js/Express.js | JavaScript",
   },
   {
     image: socialNetwork,
