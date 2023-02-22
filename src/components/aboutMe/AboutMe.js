@@ -24,11 +24,12 @@ function AboutMe() {
         <br></br>
         <p>
           My experience includes working in HTML, CSS, JavaScript, Node.js,
-          Express.js, MySQL/MySQL2, NoSQL, MongoDB and ReactJS and others. All
-          projects were built using Object Oriented Programming and using the
-          Model-View-Controller framework. My experience has taught me how to
-          problem solve as well as how to learn! Please check out my portfolio
-          of projects and I look forward to connecting soon!
+          Express.js, MySQL/MySQL2, NoSQL, MongoDB and ReactJS among others.
+          Sample projects were built using Object Oriented Programming and using
+          the Model-View-Controller framework to name a couple. My experience
+          has taught me how to problem solve as well as how to learn! Please
+          check out my portfolio of projects and I look forward to connecting
+          soon!
         </p>
       </div>
     </div>

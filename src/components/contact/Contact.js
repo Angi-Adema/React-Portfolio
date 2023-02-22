@@ -7,6 +7,9 @@ import InputGroup from "react-bootstrap/InputGroup";
 function Contact() {
   return (
     <Form className="form_container">
+      <h1>Contact Information</h1>
+      <p>Feel free to reach out to Angi Adema directly by phone at: (720) 641-5568 or by email at: angi.adema@gmail.com. Otherwise fill in the contact form below.</p>
+      <br></br>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
         <Form.Control type="name" placeholder="Name" />
