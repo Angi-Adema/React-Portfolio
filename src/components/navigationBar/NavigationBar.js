@@ -6,7 +6,7 @@ import { navigationLinks } from "../../helpers/navigationLinks";
 
 function createLinks(setCurrentPage, currentPage) {
   return navigationLinks.map((e, idx) => (
-    <Nav.Link key={idx} href={e.ref} onClick={()=>setCurrentPage(e.name)} >
+    <Nav.Link key={idx} href={e.ref} onClick={() => setCurrentPage(e.name)}>
       {e.name}
     </Nav.Link>
   ));
