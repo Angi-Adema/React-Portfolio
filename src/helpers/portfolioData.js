@@ -3,7 +3,7 @@ import eCommerce from "../images/projectsicon/ecommerceSS.png";
 import socialNetwork from "../images/projectsicon/socialNetworkSS.png";
 import teamProfile from "../images/projectsicon/teamProfileSS.png";
 import textEditor from "../images/projectsicon/textEditorSS.png";
-import weatherApp from "../images/projectsicon/weatherAppSS.png";
+import weatherApp from "../images/projectsicon/weatherappSS.png";
 
 const portfolioData = [
   {
