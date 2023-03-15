@@ -8,7 +8,10 @@ function Contact() {
   return (
     <Form className="form_container">
       <h1>Contact Information</h1>
-      <p>Please feel free to reach out directly via any of the contact information below!</p>
+      <p>
+        Please feel free to reach out directly via any of the contact
+        information below!
+      </p>
       <br></br>
       <p>Email: angi.adema@gmail.com</p>
       <p>Phone: (720) 641-5568</p>
