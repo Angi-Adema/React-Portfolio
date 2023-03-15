@@ -32,9 +32,9 @@ function Contact() {
       <Button className="button" variant="primary" type="submit">
         Submit
       </Button> */}
-      <div className="button">
+      {/* <div className="button">
 
-      </div>
+      </div> */}
     </Form>
   );
 }
