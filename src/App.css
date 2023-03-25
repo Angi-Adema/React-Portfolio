@@ -14,6 +14,7 @@
   --font-color-hover: hsl(0, 0%, 40%);
 }
 
-#tsparticles {
-  height: 100vh;
+#particles {
+  width: 100vw;
+  height: 86vh;
 }

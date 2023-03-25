@@ -1,12 +1,13 @@
 .about_container {
-  margin: 3rem 0;
+  margin: .5rem 0;
   background-color: #e2f1f3;
-  padding-top: 18px;
+  /* padding-top: 18px; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 299px;
+  /* margin-bottom: 299px; */
+  height: 85vh;
 }
 
 .about_container img {

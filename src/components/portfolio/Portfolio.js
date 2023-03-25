@@ -66,6 +66,7 @@ function Portfolio() {
           margin: 5,
           padding: 5,
         }}
+        className="portfolio_img_card"
       >
         <Image
           className="portfolio_image"
@@ -82,16 +83,16 @@ function Portfolio() {
           }}
           src={e.image}
         />
-        <div className="portfolio_click_info">&#x1F50E;&#xFE0E;</div>
+        {/* <div className="portfolio_click_info">&#x1F50E;&#xFE0E;</div> */}
         {createModal(tempData)}
       </Card>
     );
   });
 
   return (
-    <div className="portfolio_main_container" id="portfolio">
+    <div className="portfolio">
+      <Container fluid="lg" className="portfolio_main_container" style={{ padding: "2rem 0", marginTop: "30px ", textAlign: 'center' }}>
       <h1>PORTFOLIO</h1>
-      <Container fluid="lg" style={{ padding: "2rem 0" }}>
         <Row>{mapped}</Row>
       </Container>
     </div>

@@ -1,8 +1,9 @@
-.form_container {
-  margin-top: 56px;
-  margin-bottom: 60px;
+.contact_container {
+  margin-top: 20px;
+  /* margin-bottom: 60px; */
   padding: 50px 50px 50px 50px;
   background-color: #e2f1f3;
+  height: 85vh;
 }
 
 .button {

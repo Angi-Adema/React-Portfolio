@@ -1,12 +1,13 @@
-#portfolio {
+.portfolio {
   background-color: #e2f1f3;
 }
 
+/* 
 .portfolio__main__container h1,
 .portfolio__main__container p {
   text-align: center;
   margin-top: 3rem;
-}
+} */
 
 #portfolio__card__container {
   width: 50%;
@@ -14,10 +15,20 @@
   border: none;
 }
 
-.portfolio__image:hover {
-  cursor: pointer;
-  filter: brightness(50%);
+.portfolio_image{
+  width: 100%;
+  height: 100%
 }
+
+.portfolio_img_card:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* .portfolio__image:hover {
+  cursor: pointer;
+  opacity: .5;
+} */
 
 .portfolio__click__info {
   position: absolute;
