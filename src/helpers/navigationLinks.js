@@ -1,18 +1,18 @@
 export const navigationLinks = [
   {
     name: "HOME",
-    ref: "/#home",
+    ref: "/React-Portfolio/#home",
   },
   {
     name: "ABOUT ME",
-    ref: "/#about-me",
+    ref: "/React-Portfolio/#about-me",
   },
   {
     name: "PORTFOLIO",
-    ref: "/#portfolio",
+    ref: "/React-Portfolio/#portfolio",
   },
   {
     name: "CONTACT",
-    ref: "/#contact",
+    ref: "/React-Portfolio/#contact",
   },
 ];
