@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7084d098.css",
-    "main.js": "/React-Portfolio/static/js/main.ef3778ac.js",
+    "main.css": "/React-Portfolio/static/css/main.7cd8ae3f.css",
+    "main.js": "/React-Portfolio/static/js/main.2f6093a4.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/socialNetworkSS.png": "/React-Portfolio/static/media/socialNetworkSS.02d0bfd4f6fbeef900ab.png",
     "static/media/textEditorSS.png": "/React-Portfolio/static/media/textEditorSS.1348898290eba0d4ccd8.png",
@@ -11,12 +11,12 @@
     "static/media/ecommerceSS.png": "/React-Portfolio/static/media/ecommerceSS.9bd30659aa98a6069eb0.png",
     "static/media/AngiAdema.JPG": "/React-Portfolio/static/media/AngiAdema.290fc3e529a7e8453134.JPG",
     "index.html": "/React-Portfolio/index.html",
-    "main.7084d098.css.map": "/React-Portfolio/static/css/main.7084d098.css.map",
-    "main.ef3778ac.js.map": "/React-Portfolio/static/js/main.ef3778ac.js.map",
+    "main.7cd8ae3f.css.map": "/React-Portfolio/static/css/main.7cd8ae3f.css.map",
+    "main.2f6093a4.js.map": "/React-Portfolio/static/js/main.2f6093a4.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7084d098.css",
-    "static/js/main.ef3778ac.js"
+    "static/css/main.7cd8ae3f.css",
+    "static/js/main.2f6093a4.js"
   ]
 }
