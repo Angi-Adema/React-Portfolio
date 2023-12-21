@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import portfolioData from "../../helpers/portfolioData";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
-import Image from "react-bootstrap/Image";
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
-import "./portfolio.css";
+import React, { useState } from "react"
+import portfolioData from "../../helpers/portfolioData"
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Card from "react-bootstrap/Card"
+import Image from "react-bootstrap/Image"
+import Modal from "react-bootstrap/Modal"
+import Button from "react-bootstrap/Button"
+import "./portfolio.css"
 
 function Portfolio() {
-  const [modalShow, SetModalShow] = useState(false);
-  const [tempData, setTempData] = useState({});
+  const [modalShow, SetModalShow] = useState(false)
+  const [tempData, setTempData] = useState({})
 
   function createModal(data) {
     return (
@@ -52,7 +52,7 @@ function Portfolio() {
           <Button onClick={() => SetModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
-    );
+    )
   }
 
   const mapped = portfolioData.map((e, idx) => {
@@ -78,25 +78,28 @@ function Portfolio() {
               title: e.title,
               summary: e.summary,
               tech: e.tech,
-            });
-            SetModalShow(true);
+            })
+            SetModalShow(true)
           }}
           src={e.image}
         />
-        {/* <div className="portfolio_click_info">&#x1F50E;&#xFE0E;</div> */}
         {createModal(tempData)}
       </Card>
-    );
-  });
+    )
+  })
 
   return (
     <div className="portfolio">
-      <Container fluid="lg" className="portfolio_main_container" style={{ padding: "2rem 0", marginTop: "30px ", textAlign: 'center' }}>
-      <h1>PORTFOLIO</h1>
+      <Container
+        fluid="lg"
+        className="portfolio_main_container"
+        style={{ padding: "2rem 0", marginTop: "30px ", textAlign: "center" }}
+      >
+        <h1>PORTFOLIO</h1>
         <Row>{mapped}</Row>
       </Container>
     </div>
-  );
+  )
 }
 
-export default Portfolio;
+export default Portfolio
