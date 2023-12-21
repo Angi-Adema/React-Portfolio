@@ -1,6 +1,6 @@
-import React from "react";
-import "./aboutMe.css";
-import person from "../../images/AngiAdema.JPG";
+import React from "react"
+import "./aboutMe.css"
+import person from "../../images/AngiAdema.JPG"
 
 function AboutMe() {
   return (
@@ -8,32 +8,44 @@ function AboutMe() {
       <div>
         <img src={person} alt="Picture of Angi Adema" />
       </div>
-      <div className="about_text">
+      <div className="about_text" style={{ marginTop: "3rem" }}>
         <h1>ABOUT ME</h1>
         <p>
-          After earning my Bachelor of Science degree from the University of
-          Colorado at Denver, I began my professional career working in Human
-          Resources as a Benefits Administrator. From there I spent a few years
-          working as a Mortgage Processor through the refinance boom of 2021
-          then moved on to study web development through the University of
-          Denver. Having gained expertise in web development, I have earned a
-          certification as a MERN Full-Stack Developer and am now seeking
-          opportunities not only to continue learning, but also to help make a
-          business profitable through their web presence.
+          Armed with a Bachelor of Science from the University of Colorado at
+          Denver, I embarked on a dynamic career journey that has woven together
+          diverse expertise in Human Resources, Mortgage Processing, and Web
+          Development.
         </p>
-        <br></br>
         <p>
-          My experience includes working in HTML, CSS, JavaScript, Node.js,
-          Express.js, MySQL/MySQL2, NoSQL, MongoDB and ReactJS among others.
-          Sample projects were built using Object Oriented Programming and using
-          the Model-View-Controller framework to name a couple. My experience
-          has taught me how to problem solve as well as how to learn! Please
-          check out my portfolio of projects and I look forward to connecting
-          soon!
+          Driven by a passion for learning and technology, I pivoted to immerse
+          myself in the realm of web development, undertaking comprehensive
+          studies at the University of Denver. My dedication culminated in
+          achieving certification as a MERN Full-Stack Developer, equipping me
+          with a robust skill set poised to innovate and create impactful
+          digital solutions.
+        </p>
+        <p>
+          My proficiency spans an array of technologies including HTML, CSS,
+          JavaScript, Node.js, Express.js, MySQL/MySQL2, NoSQL, MongoDB, and
+          ReactJS, among others. Throughout my journey, I've employed Object
+          Oriented Programming and embraced RESTful API construction through
+          various frameworks to craft diverse projects, fostering a keen knack
+          for problem-solving and continual learning.
+        </p>
+        <p>
+          I am fervently driven by a dual pursuit: to perpetually expand my
+          knowledge horizon and to leverage my expertise to enhance a company's
+          online footprint, amplifying its success in the digital sphere. I
+          invite you to explore my portfolio showcasing a curated collection of
+          projects, each a testament to my commitment to excellence.
+        </p>
+        <p>
+          I eagerly anticipate the opportunity to connect and explore avenues
+          where my skills and passion align with your organizational goals.
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default AboutMe;
+export default AboutMe
