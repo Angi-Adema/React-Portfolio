@@ -1,15 +1,19 @@
-import React from "react";
-import "./navigation.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import { navigationLinks } from "../../helpers/navigationLinks";
+import React from "react"
+import "./navigation.css"
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
+import { navigationLinks } from "../../helpers/navigationLinks"
 
 function createLinks(setCurrentPage, currentPage) {
   return navigationLinks.map((e, idx) => (
-    <Nav.Link key={idx} className={`${currentPage === e.name ? 'nav-link active': 'nav-link'}`}  onClick={() => setCurrentPage(e.name)}>
+    <Nav.Link
+      key={idx}
+      className={`${currentPage === e.name ? "nav-link active" : "nav-link"}`}
+      onClick={() => setCurrentPage(e.name)}
+    >
       {e.name}
     </Nav.Link>
-  ));
+  ))
 }
 
 function NavigationBar({ currentPage, setCurrentPage }) {
@@ -21,7 +25,10 @@ function NavigationBar({ currentPage, setCurrentPage }) {
         collapseOnSelect
         expand="md"
       >
-        <Navbar.Brand style={{ marginLeft: "1rem" }} onClick={()=> setCurrentPage('HOME')}>
+        <Navbar.Brand
+          style={{ marginLeft: "1rem" }}
+          onClick={() => setCurrentPage("HOME")}
+        >
           Angela E. Adema
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -46,7 +53,7 @@ function NavigationBar({ currentPage, setCurrentPage }) {
         </Navbar.Collapse>
       </Navbar>
     </div>
-  );
+  )
 }
 
-export default NavigationBar;
+export default NavigationBar
