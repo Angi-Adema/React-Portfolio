@@ -22,10 +22,10 @@ function AboutMe() {
           studies at the University of Denver. My dedication culminated in
           achieving certification as a MERN Full-Stack Developer, equipping me
           with a robust skill set poised to innovate and create impactful
-          digital solutions.
+          digital solutions. Presently, I am working toward an Oracle Java certification.
         </p>
         <p>
-          My proficiency spans an array of technologies including HTML, CSS,
+          My proficiency spans an array of technologies including HTML, CSS, Java, 
           JavaScript, Node.js, Express.js, MySQL/MySQL2, NoSQL, MongoDB, and
           ReactJS, among others. Throughout my journey, I've employed Object
           Oriented Programming and embraced RESTful API construction through
