@@ -42,7 +42,7 @@ function NavigationBar({ currentPage, setCurrentPage }) {
           <Nav className="links" style={{ margin: "0 1rem" }}>
             {createLinks(setCurrentPage, currentPage)}
             <a
-              href="https://app.enhancv.com/share/3718490d/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+              href="https://drive.google.com/file/d/1RFTsNo0bmDqYYj76hlC08QrjsG38v0SS/view?usp=sharing"
               className="nav-link"
               target="_blank"
               download

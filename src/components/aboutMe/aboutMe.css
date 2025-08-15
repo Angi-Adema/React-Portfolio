@@ -18,6 +18,11 @@
   max-width: 600px;
 }
 
+.main-content {
+  flex: 1;
+  background: #e2f1f3;
+}
+
 @media only screen and (max-width: 900px) {
   .about_container {
     flex-direction: column;
