@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Raleway:ital,wght@0,300;0,500;1,300;1,600&display=swap");
+
+/* App wrapper styles */
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: "Raleway", sans-serif;
 }
 
+/* Root color variables */
 :root {
   /* --nav-color: hsl(210, 11%, 15%); */
   --nav-color: #313335;
@@ -14,7 +20,17 @@
   --font-color-hover: hsl(0, 0%, 40%);
 }
 
+/* Main content area – grows to push footer down */
+.main-content {
+  flex: 1;
+}
+
+.footer_container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Remove old #particles size constraint, Particles.jsx handles it now */
 #particles {
-  width: 100vw;
-  height: 86vh;
+  display: block;
 }

@@ -10,7 +10,7 @@ function createLinks() {
   ));
 }
 
-function footer() {
+function Footer() {
   return (
     <div className="footer_container" id="contact">
       <div className="footer_data_links">
@@ -63,4 +63,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
