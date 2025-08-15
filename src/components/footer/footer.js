@@ -17,7 +17,7 @@ function footer() {
         <div>
           <p>
             <a
-              href="https://www.linkedin.com/in/angi-adema-169b6925b/"
+              href="https://www.linkedin.com/in/angelaadema/"
               target="_blank"
               rel="noreferrer"
             >
