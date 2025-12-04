@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Navigation from "./components/navigationBar/NavigationBar";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/footer";
 import Main from "./components/mainContainer/Main";
 import Particles from "./Particles";
 

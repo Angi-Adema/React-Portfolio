@@ -1,8 +1,7 @@
 
-import eCommerce from "../images/projectsicon/ecommerceSS.png"
+import satellite from "../images/projectsicon/satellite.jpg"
 import socialNetwork from "../images/projectsicon/socialNetworkSS.png"
 import socialNetwork2 from "../images/projectsicon/socialNetwork2.png"
-import reminderNotes from "../images/projectsicon/stickyNotes.jpg"
 import architecture from "../images/projectsicon/architecture.png"
 import banking from "../images/projectsicon/banking.jpg"
 
@@ -11,7 +10,7 @@ import banking from "../images/projectsicon/banking.jpg"
 
 const portfolioData = [
     {
-    image: "satellite",
+    image: satellite,
     link: "https://github.com/Angi-Adema/satellite-telemetry-api",
     github: "https://github.com/Angi-Adema/satellite-telemetry-api",
     title: "Satellite-Telemetry-API",
@@ -50,17 +49,6 @@ const portfolioData = [
     summary: "Backend RESTful API for a social media blog.",
     tech: "Java | Maven | Javalin | JDBC | MySQL",
   },
-
-  // {
-  //   image: eCommerce,
-  //   link: "https://turnip-the-zine.herokuapp.com/",
-  //   github: "https://github.com/madisenvo/Turnip-the-Zine",
-  //   title: "Turnip-the-Zine",
-  //   summary:
-  //     "Full stack application with ecommerce for local bands to sell tickets and merchandise.",
-  //   tech: "GraphQL/Apollo | Node.js | Express.js | JavaScript",
-  // },
-
 
 ]
 
